@@ -35,7 +35,7 @@ const Section_Point = ({heading, name}: Props) => {
   //return div
   return (
     <div className={classes}>
-      <Image src={'/logos/' + heading + '/' + name + imgFormat} alt={name + ' Logo/Picture'} 
+      <Image src={'/' + heading + '/' + name + imgFormat} alt={name + ' Logo/Picture'} 
       width={imgW} height={imgH} />
       <h1 className="mt-2">{name}</h1>
     </div>
