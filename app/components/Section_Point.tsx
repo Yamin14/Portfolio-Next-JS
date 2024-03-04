@@ -14,7 +14,7 @@ const Section_Point = ({heading, name}: Props) => {
   var imgH;
   var divWidth;
 
-  if (heading == 'skills') {
+  if (heading === 'skills') {
     //skill icon
     imgFormat = '.ico';
     imgW = 50;
