@@ -33,7 +33,7 @@ const Section_Point = ({heading, name}: Props) => {
   const classes = `flex flex-col justify-center items-center p-4 border-2 border-green-900 rounded shadow-md font-mono font-medium text-base md:text-xl hover:opacity-80 hover:scale-110  focus:opacity-80 focus:scale-110 min-w-48 w-${divWidth}`;
 
   //image path
-  const imagePath = `/${heading}/${name}${imgFormat}`;
+  const imagePath = `/${encodeURIComponent(heading)}/${encodeURIComponent(name)}${encodeURIComponent(imgFormat)}`;
 
   //return div
   return (
