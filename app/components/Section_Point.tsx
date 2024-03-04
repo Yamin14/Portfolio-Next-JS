@@ -32,10 +32,13 @@ const Section_Point = ({heading, name}: Props) => {
   //className of container
   const classes = `flex flex-col justify-center items-center p-4 border-2 border-green-900 rounded shadow-md font-mono font-medium text-base md:text-xl hover:opacity-80 hover:scale-110  focus:opacity-80 focus:scale-110 min-w-48 w-${divWidth}`;
 
+  //image path
+  const imagePath = '/' + heading + '/' + name + imgFormat;
+
   //return div
   return (
     <div className={classes}>
-      <Image src={'/' + heading + '/' + name + imgFormat} alt={name + ' Logo/Picture'} 
+      <Image src={imagePath} alt={name + ' Logo/Picture'} 
       width={imgW} height={imgH} />
       <h1 className="mt-2">{name}</h1>
     </div>
