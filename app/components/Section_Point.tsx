@@ -8,22 +8,20 @@ interface Props {
 
 const Section_Point = ({heading, name}: Props) => {
 
-  //image format and width and height
-  var imgFormat;
+  //image settings
+  var imgFormat = '.png';
   var imgW;
   var imgH;
   var divWidth;
 
   if (heading === 'skills') {
     //skill icon
-    imgFormat = '.png';
     imgW = 50;
     imgH = 50;
     divWidth = 48;
 
   } else { 
       //certificate image
-      imgFormat = '.png'; 
       imgW = 300;
       imgH = 270;
       divWidth = 52;
