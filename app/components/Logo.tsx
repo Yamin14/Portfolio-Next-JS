@@ -10,7 +10,7 @@ interface Props {
 const Logo = ({icon}: Props) => {
   return (
         <Link href='/' className='w-fit hover:cursor-default'>
-            <Image src={'/logo/logo_' + icon + '.png'} alt='' width={100} height={100}
+            <Image src={'/logo/logo_' + icon + '.png'} alt='' width={75} height={75}
             className='p-2 hover:cursor-pointer' />
         </Link>     
   )

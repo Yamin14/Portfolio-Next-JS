@@ -8,7 +8,7 @@ const Projects = () => {
   const projects = ['Landing Page', 'Ecommerce Shopping Page', 'Grocery Bud', 'Tours Page', 'Random Quotes Generator'];
 
   return (
-    <div>
+    <div id='projects'>
 
         <Section_Heading heading='Projects' />
 

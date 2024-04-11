@@ -9,7 +9,7 @@ const Skills = () => {
   const skills = ['HTML', 'CSS', 'JavaScript', 'jQuery', 'TypeScript', 'React.js', 'Bootstrap', 'TailwindCSS', 'Next.js'];
 
   return (
-    <div className='section py-6'>
+    <div className='section py-6' id='skills'>
       <Section_Heading heading='Skills' />
 
       {/* Skills */}

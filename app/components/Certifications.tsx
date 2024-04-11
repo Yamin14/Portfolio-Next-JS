@@ -8,7 +8,7 @@ const Certifications = () => {
   const certifications = ['React + Redux', 'Responsive Web Design', 'UI UX For Beginners', 'Get Started With Figma']
 
   return (
-    <div>
+    <div id='certifications'>
         <Section_Heading heading='Certifications' />
         <Section_Points heading='certifications' points={certifications}  />
     </div>
