@@ -8,7 +8,7 @@ import Certifications from './components/Certifications'
 
 const Home = () => {
   return (
-    <main className='pt-8'>
+    <main className='mt-8'>
       <Header />
       <Skills />
       <Certifications />
