@@ -4,7 +4,7 @@ import Logo from './Logo'
 
 const Header = () => {
   return (
-    <div className='h-screen bg-green-900 flex flex-col justify-between mb-6'>
+    <div className='h-screen bg-green-900 flex flex-col justify-center mb-6'>
 
       <div className='flex justify-between p-2 bg-white fixed top-0 w-screen border-b-2 border-green-900 z-50'>
         <Logo icon='header' />
@@ -15,7 +15,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className='text-white mt-auto text-center py-44'>
+      <div className='text-white text-center'>
         <h1 className='m-3 font-semibold text-3xl md:text-8xl'>{"Welcome to Yamin's Website!"}</h1>      
         
         <p className='text-sm px-4 pt-6'>
