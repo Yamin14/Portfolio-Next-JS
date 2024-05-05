@@ -5,7 +5,7 @@ import Section_Points from './Section_Points'
 
 const Certifications = () => {
 
-  const certifications = ['Responsive Web Design - freeCodeCamp', 'Front End Development Libraries', 'React + Redux - SoloLearn', 'Responsive Web Design - SoloLearn', 'UI UX For Beginners - GreatLearning', 'Get Started With Figma - Coursera']
+  const certifications = ['Responsive Web Design - freeCodeCamp', 'Front End Development Libraries - freeCodeCamp', 'React + Redux - SoloLearn', 'Responsive Web Design - SoloLearn', 'UI UX For Beginners - GreatLearning', 'Get Started With Figma - Coursera']
 
   return (
     <div id='certifications' className='section'>
